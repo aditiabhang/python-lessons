@@ -42,15 +42,17 @@ removed = companies.remove('Facebook')
 # print(removed) # should show None
 print(" using remove method: ", companies)
 
-# Using sorted method: sorting the elements in a list 
-# NOTE: sorted method creates a new list 
+# Using sorted function: sorting the elements in a list 
+# NOTE: sorted function creates a new list 
 nums = [1, 4, 5, 3, 2]
 new_nos = sorted(nums)
 print("new sorted list: ", new_nos)
 
 
+# sort method can only be used on lists
 # NOTE: sort method does not create a new copy of the list. The list gets altered by itself
 # using sort method to sort elements in a list 
+# s_companies = companies.sort()  # None this will return None
 companies.sort()
 print("sorted list: ", companies)
 
