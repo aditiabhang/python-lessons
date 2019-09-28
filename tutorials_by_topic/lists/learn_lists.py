@@ -81,8 +81,8 @@ print("List converted into a string: ", companies_to_string)
 original_list = companies_to_string.split('-')
 print("back to the original list: ", original_list)
 
-# creating empty list 
-empty_list= []
-# or
-empty_list = list()
 
+# creating empty list 
+empty_list = []
+# or
+#empty_list = list()
