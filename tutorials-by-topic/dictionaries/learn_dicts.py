@@ -6,6 +6,7 @@ print(students)
 
 # accessing/reading the key
 print(students['courses']) 
+print(students['courses'][1])
 
 # accessing key using get() method
 print(students.get('name'))
