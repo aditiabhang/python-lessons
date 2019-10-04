@@ -72,7 +72,7 @@ print("Addition of all elements in the list: ", sum(nums))
 
 # CONVERT LISTS INTO A STRING
 # space separated strings
-companies_to_string = ' - '.join(companies)
+companies_to_string = '-'.join(companies)
 print("List converted into a string: ", companies_to_string)
 
 
