@@ -10,6 +10,7 @@ print(students['courses'][1])
 
 # accessing key using get() method
 print(students.get('name'))
+print("Print Math: ", students.get('courses')[0])
 
 # accessing a key that does not exists
 print(students.get('phone', 'Key does not exists'))

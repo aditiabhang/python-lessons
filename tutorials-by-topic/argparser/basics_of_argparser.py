@@ -3,7 +3,6 @@ import sys
 import logging
 
 
-
 def calculate(a, b, operation):
 
     """
