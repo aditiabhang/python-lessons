@@ -3,6 +3,7 @@ companies = ['IBM', 'Google', 'Apple', 'Microsoft', 'Amazon']
 # basic slicing in a list
 print(companies[0:3])
 print(companies[3:])
+print(companies[:3])
 
 # Using index method to find position of a element in the list 
 print("Index of the element in the list: ", companies.index('Apple'))
@@ -18,18 +19,24 @@ print('Facebook' in companies) # False
 companies.append('Facebook')
 print("Appended Company:", companies)
 
-# if you want insert/add/append value anywhere in the list 
-# use insert method
+# The insert method inserts an object into an existing list before a specified index value. 
+# This lets you insert the object at the start of an existing list or anywhere within the list. 
 companies.insert(0, 'SpaceX')
+
 # This shifts all the elements to the right after the element is inserted in between the list
 print("Companies: ", companies)
 
-# Extend method to insert elements from another list  to the end of the first list
+# Extend method to insert elements from another list to the end of the first list
 companies2 = ['Tesla', 'Lexus']
 companies.extend(companies2)
 print(companies)
 
-# remove elements from a list will pop off the last element from the list 
+# The pop method removes and returns an object from an existing list based on the object’s index value. 
+# If you specify an index value, the object in that location is removed and returned.
+companies.pop(4)
+print(companies)
+
+# If you invoke pop without specifying an index value, the last object in the list is removed and returned. 
 popped = companies.pop()
 # will show us the popped element
 print(popped)

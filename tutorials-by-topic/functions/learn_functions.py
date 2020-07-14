@@ -17,3 +17,16 @@ print(hello_func('Hi'))
 # but, if we pass a parameter in the function it will override the default 'name' parameter
 # NOTE: the sequence of passing the parameter to a function is important 
 print(hello_func('Hi', 'Python'))
+
+
+
+# what will be the answer
+x = 3
+y = 4
+
+def add(a, b):
+   result = x + y
+   print(result)
+
+add(10, 20)
+
